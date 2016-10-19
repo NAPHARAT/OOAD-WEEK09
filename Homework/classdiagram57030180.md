@@ -58,7 +58,7 @@ Department : - dept_ID
 ![]
 ()
 
-ข้อ 4 พาสปอต์
+ข้อ 4 พาสปอต
 
 โค้ด
 
@@ -79,5 +79,25 @@ booking : + passenger
 
 ```
 
+![]
+()
+
+ข้อ 5 Passengers
+
+โค้ด 
+```
+
+@startuml
+Passengers <|-- Railway_admin
+
+Railway_admin : + display ()
+Railway_admin : + list of train ()
+Railway_admin : - Train_no 
+Railway_admin : + list of train ()
+Passengers : - Name 
+Passengers : + payment 
+@enduml
+
+```
 ![]
 ()
