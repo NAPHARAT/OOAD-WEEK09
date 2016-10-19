@@ -23,7 +23,7 @@ Bank : + collect_money ()
 @enduml
 ```
 ![]
-()
+(https://github.com/NAPHARAT/OOAD-WEEK09/blob/master/Homework/C1.png?raw=true)
 
 ข้อ 2 course manager student
 
@@ -39,7 +39,7 @@ course_section : + remove_student ()
 @enduml
 ```
 ![]
-()
+(https://github.com/NAPHARAT/OOAD-WEEK09/blob/master/Homework/C2.png?raw=true)
 
 ข้อ 3 employee
 
@@ -56,7 +56,7 @@ Department : - dept_ID
 @enduml
 ```
 ![]
-()
+(https://github.com/NAPHARAT/OOAD-WEEK09/blob/master/Homework/C3.png?raw=true)
 
 ข้อ 4 พาสปอต
 
@@ -80,7 +80,7 @@ booking : + passenger
 ```
 
 ![]
-()
+(https://github.com/NAPHARAT/OOAD-WEEK09/blob/master/Homework/C4.png?raw=true)
 
 ข้อ 5 Passengers
 
@@ -100,4 +100,4 @@ Passengers : + payment
 
 ```
 ![]
-()
+(https://github.com/NAPHARAT/OOAD-WEEK09/blob/master/Homework/C5.png?raw=true)
