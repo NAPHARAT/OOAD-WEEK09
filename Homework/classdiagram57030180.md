@@ -31,8 +31,6 @@ Bank : + collect_money ()
 ```
 @startuml
 course_manager -- course_section
-
-
 course_section : + isFull()
 course_section : + add_student ()
 course_section : + create ()
@@ -49,7 +47,6 @@ course_section : + remove_student ()
 ```
 @startuml
 Department <|-- Emp_detail
-
 Emp_detail : - emp_name
 Emp_detail : - emp_ID
 Emp_detail : - contact
@@ -58,5 +55,29 @@ Department : - dept_ID
 
 @enduml
 ```
+![]
+()
+
+ข้อ 4
+
+โค้ด
+
+```
+
+@startuml
+Fight <|-- booking
+
+Fight : + add_fight ()
+Fight : - fight_No
+Fight : - destination
+booking : + date
+booking : + time
+booking : + date
+booking : + passenger
+
+@enduml
+
+```
+
 ![]
 ()
