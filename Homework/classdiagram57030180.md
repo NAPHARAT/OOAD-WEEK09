@@ -22,3 +22,23 @@ Bank : + collect_money ()
 
 @enduml
 ```
+![]
+()
+
+ข้อ 2 course manager student
+
+โค้ด
+```
+@startuml
+course_manager -- course_section
+
+
+course_section : + isFull()
+course_section : + add_student ()
+course_section : + create ()
+course_section : + remove_student ()
+
+@enduml
+```
+![]
+()
