@@ -42,3 +42,21 @@ course_section : + remove_student ()
 ```
 ![]
 ()
+
+ข้อ 3 employee
+
+โค้ด
+```
+@startuml
+Department <|-- Emp_detail
+
+Emp_detail : - emp_name
+Emp_detail : - emp_ID
+Emp_detail : - contact
+Department : - dept_ID
+
+
+@enduml
+```
+![]
+()
